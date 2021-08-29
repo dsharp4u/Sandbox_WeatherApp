@@ -38,15 +38,99 @@ button:hover  {
   cursor: pointer;
   background: #5e41a7;
 }
+h3 {
+  text-align: center;
+  margin: 30px;
+  position: relative;
+  bottom: 20px;
+  left: 200px;
+  max-width: 400px;
+  line-height: 50px;
+  background: whitesmoke;
+  width: 1110;
+  height: 48;
+}
+form {
+  margin: 30px;
+}
+img {
+  border: 1px solid #000;
+  border-color: #f0e7ee;
+  padding: 5px;
+  position: relative;
+  right: 10px;
+}
+h5 {
+  font-size: small;
+}
+.img {
+  position: center;
+}
+.degrees,
+.farenheit {
+  text-align: center;
+  font-size: 30px;
+}
+
+.col-3 {
+  position: center;
+  top: 80px;
+  left: 30px;
+}
+.col-1 {
+  margin: 20px;
+}
+.temp {
+  font-size: 40px;
+  color: #000;
+  position: relative;
+  right: 10px;
+}
+.card {
+  width: 550px;
+  margin-bottom: 5px;
+  background: whitesmoke;
+  max-height: 600px;
+  border-color: #ffd5e5;
+}
+.card-body {
+  font-size: 20px;
+}
+.card-group {
+  font-size: 16px;
+}
+.card-text {
+  font-size: 16px;
+}
+.input {
+  width: 300px;
+}
+.button {
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px gray;
+  width: 80px;
+}
+
+.weather_icon {
+  float: left;
+}
+.weather-view-btn {
+  padding: 15px 0 10px;
+
+  display: block;
+}
+
 .description p  {
   text-align: center;
   font-size: 18px;
   line-height: 28px;
   font-family: PT Mono,  monospace;
 }
-span.limited-spots  {
-  font-weight: bold;
-}
+
 div.button-container  {
   margin: 60px 0;
 }
+.footer {
+  font-size: 20px;
+}
+
